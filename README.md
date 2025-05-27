@@ -55,11 +55,11 @@ Jika Anda ingin berkontribusi pada pengembangan SimpleEssen, Anda dapat melakuka
 
 ## Lisensi
 
-[Tambahkan informasi lisensi plugin Anda di sini. Contoh: MIT License]
+MIT License
 
 ## Penulis
 
-[Nama Anda atau nama tim Anda]
+AzmiiD (Leader)
 
 ---
 
