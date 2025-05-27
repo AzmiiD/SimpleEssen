@@ -1,0 +1,50 @@
+name: SimpleEssen
+version: '1.0-SNAPSHOT'
+main: io.github.AzmiiD.simpleEssen.SimpleEssen
+api-version: '1.21'
+authors: [ Azmii_ ]
+description: Everyting Make Simple
+
+commands:
+  tpa:
+    description: Mengirim permintaan teleportasi ke pemain lain.
+    usage: /tpa <nama_pemain>
+  tpaccept:
+    description: Menerima permintaan teleportasi.
+    usage: /tpaccept
+  tpdeny:
+    description: Menolak permintaan teleportasi.
+    usage: /tpdeny
+  setwarp:
+    description: Membuat warp baru.
+    usage: /setwarp <nama>
+    aliases: [swarp]
+  warp:
+    description: Teleport ke warp.
+    usage: /warp <nama>
+    aliases: [w]
+  delwarp:
+    description: Menghapus warp.
+    usage: /delwarp <nama>
+  warplist:
+    description: Menampilkan daftar warp.
+    usage: /warplist
+    aliases: [warps]
+  pay:
+    description: Membayar pemain lain (membutuhkan Vault).
+    usage: /pay <nama_pemain> <jumlah>
+  feed:
+    description: Mengisi kelaparan Anda.
+    usage: /feed
+  heal:
+    description: Menyembuhkan diri Anda.
+    usage: /heal
+  sethome:
+    description: Mengatur lokasi home Anda.
+    usage: /sethome
+  home:
+    description: Berpindah ke lokasi home Anda.
+    usage: /home
+  baltop:
+    description: Menampilkan daftar pemain dengan saldo tertinggi (membutuhkan Vault).
+    usage: /baltop
